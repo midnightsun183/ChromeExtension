@@ -1,0 +1,35 @@
+
+<!-- saved from url=(0078)http://developer.chrome.com/extensions/examples/api/bookmarks/basic/popup.html -->
+<html ng-app="app">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!-- APPLICATION STYLESHEET -->
+		<link href="./css/app.css" rel="stylesheet">
+		<!-- APPLICATION JAVASCRIPT -->
+		<script src="./js/core.js"></script>
+		<script src="./js/config.js"></script>
+		<!-- <script src="./js/extend.js"></script> -->
+		<script src="./js/init.js"></script>
+	</head>
+	<body ng-controller="main">
+
+		<div id="notify" class="alert alert-info">
+			<div id="message"></div>
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+		</div>
+
+		<div class="clear"></div>
+		<div id="runcode">
+			<div id="bbody">
+				<span class="icon-resize-full" id="bresize"></span> 
+				<textarea id="bcode" placeholder="Enter Browser Code Here.."></textarea>
+				<div>
+					<input type="text" id="bname" value="" placeholder="Save script as">
+					<button type="button" class="btn btn-warning" id="brun">Run</button>
+					  <select id="brsel"><option value="">Open script..</option></select>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
